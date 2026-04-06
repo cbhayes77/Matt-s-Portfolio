@@ -6,9 +6,6 @@ import { Button } from "@/components/base/buttons/button";
 import { UntitledLogo } from "@/components/foundations/logo/untitledui-logo";
 import { UntitledLogoMinimal } from "@/components/foundations/logo/untitledui-logo-minimal";
 import { cx } from "@/utils/cx";
-import { DropdownMenuFeatureCard } from "./dropdown-menu-feature-card";
-import { DropdownMenuSimpleWithFooter } from "./dropdown-menu-simple-with-footer";
-import { DropdownMenuWithTwoColsAndLinksAndFooter } from "./dropdown-menu-with-two-cols-and-links-and-footer";
 
 type HeaderNavItem = {
     label: string;
