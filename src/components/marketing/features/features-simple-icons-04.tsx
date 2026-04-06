@@ -11,7 +11,7 @@ export const FeaturesSimpleIcons04 = () => {
                         <FeaturedIcon icon={ZapFast} color="brand" size="xl" theme="light" className="hidden md:flex" />
                         <FeaturedIcon icon={ZapFast} color="brand" size="lg" theme="light" className="md:hidden" />
 
-                        <h2 className="mt-5 text-display-sm font-semibold text-primary md:text-display-md">Beautiful analytics to grow smarter</h2>
+                        <h2 className="mt-5 text-display-sm font-semibold text-primary md:text-display-md">About Section</h2>
                         <p className="mt-4 text-lg text-tertiary md:mt-5 md:text-xl">
                             Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users.
                         </p>
