@@ -1,4 +1,3 @@
-import { Header } from "@/components/marketing/header-navigation/header";
 import { HeroSplitImage02 } from "@/components/marketing/header-section/hero-split-image-02";
 import { FeaturesSimpleIcons04 } from "@/components/marketing/features/features-simple-icons-04";
 import { FeaturesAlternatingLayout03 } from "@/components/marketing/features/features-alternating-layout-03";
