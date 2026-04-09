@@ -13,41 +13,32 @@ export const FeaturesSimpleIcons04 = () => {
 
                         <h2 className="mt-5 text-display-sm font-semibold text-primary md:text-display-md">About Section</h2>
                         <p className="mt-4 text-lg text-tertiary md:mt-5 md:text-xl">
-                            Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users.
+                            I partner with stakeholders, SMEs, and product owners to design engaging training that aligns directly to business goals like compliance, onboarding, and continuous development. I lead complex, enterprise-scale initiatives with a focus on quality, efficiency, and continuous improvement driven by learner feedback. I also drive innovation by improving systems, piloting new technologies, and equipping teams with scalable tools, templates, and coaching.
                         </p>
                     </div>
 
                     <div className="lg:col-span-2">
-                        <ul className="grid w-full grid-cols-1 gap-x-16 gap-y-10 sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-3 md:gap-y-8 lg:grid-cols-2">
+                        <ul className="grid w-full grid-cols-1 gap-x-16 gap-y-10 sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-2 md:gap-y-8 lg:grid-cols-2">
                             {[
                                 {
-                                    title: "Share team inboxes",
-                                    subtitle: "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+                                    title: "Strategic Learning Design & Business Impact",
+                                    subtitle: "I’m a Learning Experience Designer and Strategic Consultant who transforms complex content into scalable, engaging solutions that drive measurable business outcomes. I’ve led enterprise training initiatives across modalities, improving efficiency and reducing friction through innovations like streamlined workflows and test-out options.",
                                 },
                                 {
-                                    title: "Manage your team with reports",
+                                    title: "Solving Complex Problems Through Innovation & Technology",
                                     subtitle:
-                                        "Measure what matters with Untitled's easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
+                                        "I specialize in solving complex challenges at the intersection of learning and technology, delivering practical, high-impact solutions. From modernizing legacy content to improving QA and introducing multimedia and process enhancements, I elevate quality, usability, and performance at scale.",
                                 },
                                 {
-                                    title: "Connect the tools you already use",
+                                    title: "Strengthening Team & Stakeholder Confidence With Engagement & Collaboration",
                                     subtitle:
-                                        "Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.",
+                                        "I’m a trusted partner to stakeholders and cross-functional teams, known for building strong relationships, driving alignment, and accelerating outcomes through collaboration and co-creation. I also coach others and help teams navigate ambiguity, contributing to high-quality, award-recognized work while strengthening team capability.",
                                 },
                                 {
-                                    title: "Deliver instant answers",
-                                    subtitle: "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+                                    title: "Bringing Calm, Adaptability & Continuous Growth",
+                                    subtitle: "I bring a calm, solutions-oriented mindset that helps create clarity and momentum in fast-paced environments. Known for reliability and adaptability, I continuously build new skills and improve processes to enhance team performance and learner impact.",
                                 },
-                                {
-                                    title: "Connect with customers",
-                                    subtitle:
-                                        "Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.",
-                                },
-                                {
-                                    title: "Our people make the difference",
-                                    subtitle:
-                                        "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
-                                },
+                                
                             ].map((item) => (
                                 <li key={item.title}>
                                     <FeatureTextLeft title={item.title} subtitle={item.subtitle} />

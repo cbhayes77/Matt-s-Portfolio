@@ -65,7 +65,7 @@ export const TestimonialSocialCards01 = () => {
     return (
         <div className="flex flex-col items-center gap-16 bg-primary py-16 lg:py-24">
             <div className="flex max-w-container flex-col items-center gap-4 px-4 text-center lg:gap-5 lg:px-8">
-                <h1 className="text-display-sm font-semibold text-primary lg:text-display-md">What People Say</h1>
+                <h1 className="text-display-sm font-semibold text-primary lg:text-display-md">What People Say About Me</h1>
                 <p className="text-lg text-tertiary lg:text-xl">Hear first-hand from my clients, bosses, and colleagues about their experiences working with me.</p>
             </div>
             <div className="grid max-w-container grid-cols-1 gap-5 px-4 lg:grid-cols-2 lg:gap-6 lg:px-8">

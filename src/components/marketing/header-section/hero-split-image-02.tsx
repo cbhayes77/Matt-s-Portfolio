@@ -14,7 +14,7 @@ export const HeroSplitImage02 = () => {
                             I'm Matt Scaglione, eLearning Designer
                         </h1>
                         <p className="mt-4 text-lg text-balance text-tertiary md:mt-6 md:text-xl">
-                            Blurb about Matt Scaglione goes here
+                            Strategic Learning Experience Designer with 15+ years of experience delivering scalable, high-quality training solutions aligned to business goals and impacting 50,000+ employees.
                         </p>
 
                         <div className="mt-8 flex w-full flex-col-reverse items-stretch gap-3 md:mt-12 md:flex-row md:items-start">
