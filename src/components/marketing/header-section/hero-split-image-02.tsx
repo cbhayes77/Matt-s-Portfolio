@@ -11,7 +11,7 @@ export const HeroSplitImage02 = () => {
                 <div className="mx-auto w-full max-w-container px-4 md:px-8">
                     <div className="flex flex-col items-start md:max-w-3xl lg:w-1/2 lg:pr-8">
                         <h1 className="mt-4 text-display-md font-semibold text-primary md:text-display-lg lg:text-display-xl">
-                            I'm Matt Scaglione, eLearning Designer
+                            I'm Matt Scaglione, Learning Experience Designer
                         </h1>
                         <p className="mt-4 text-lg text-balance text-tertiary md:mt-6 md:text-xl">
                             Strategic Learning Experience Designer with 15+ years of experience delivering scalable, high-quality training solutions aligned to business goals and impacting 50,000+ employees.

@@ -42,13 +42,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="/assets/images/Innovative-Audio-Visual-Learning-Design.png"
-                                className="top-12 left-12 w-full rounded object-cover object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 left-12 w-full rounded object-cover object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="/assets/images/Innovative-Audio-Visual-Learning-Design.png"
-                                className="top-12 left-12 w-full rounded object-cover object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 left-12 w-full rounded object-cover object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
                         </div>
                     </div>
@@ -81,13 +81,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Storytelling.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Storytelling.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
 
                         </div>
@@ -122,13 +122,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Engaging-Recap.png"
-                                className="top-12 left-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 left-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Engaging-Recap.png"
-                                className="top-12 left-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 left-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
                         </div>
                     </div>
@@ -162,13 +162,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/After-Effects.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/After-Effects.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
                         </div>
                     </div>
@@ -201,13 +201,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="/assets/images/Path-Flow.png"
-                                className="top-12 left-12 w-full rounded object-cover object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 left-12 w-full rounded object-cover object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="/assets/images/Path-Flow.png"
-                                className="top-12 left-12 w-full rounded object-cover object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 left-12 w-full rounded object-cover object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
                         </div>
                     </div>
@@ -238,13 +238,13 @@ export const FeaturesAlternatingLayout03 = () => {
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Quicktime.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl dark:hidden"
                             />
                             {/* Dark mode image (hidden in light mode) */}
                             <img
                                 alt="Dashboard mockup showing application interface"
                                 src="assets/images/Quicktime.png"
-                                className="top-12 right-12 w-full rounded object-contain object-left-top ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
+                                className="top-12 right-12 w-full rounded object-contain object-top-left ring-4 ring-screen-mockup-border not-dark:hidden md:absolute md:h-[120%] md:w-auto md:max-w-5xl md:rounded-[10px] lg:max-w-3xl"
                             />
                         </div>
                     </div>
