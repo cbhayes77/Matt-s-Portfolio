@@ -1,7 +1,6 @@
 import { ChartBreakoutSquare, MessageChatCircle, ZapFast } from "@untitledui/icons";
 import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
 import { CheckItemText } from "@/components/marketing/pricing-sections/base-components/pricing-tier-card";
-import { IPhoneMockup } from "@/components/shared-assets/iphone-mockup";
 
 export const FeaturesAlternatingLayout03 = () => {
     return (
