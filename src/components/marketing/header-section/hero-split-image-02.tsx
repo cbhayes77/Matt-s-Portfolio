@@ -28,7 +28,7 @@ export const HeroSplitImage02 = () => {
                 <div className="relative mt-16 h-70 w-full px-4 md:h-96 md:px-8 lg:absolute lg:inset-y-0 lg:right-0 lg:mt-0 lg:h-full lg:w-1/2 lg:px-0">
                     <img
                         className="size-full object-cover xl:absolute xl:inset-0 xl:-left-10 xl:w-[calc(100%+40px)] xl:max-w-none xl:[clip-path:polygon(10%_0%,_100%_0%,_100%_100%,_0%_100%)]"
-                        src="https://www.untitledui.com/marketing/smiling-girl-5.webp"
+                        src="/assets/images/Hero.png"
                         alt="Image by Good Faces at Unsplash.com"
                     />
                 </div>

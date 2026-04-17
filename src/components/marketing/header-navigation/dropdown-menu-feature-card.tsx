@@ -24,7 +24,7 @@ export const DropdownMenuFeatureCard = () => {
                 <div className="bg-secondary px-1 pt-2 pb-3 md:max-w-76 md:px-2">
                     <FeatureCardVertical
                         href="#"
-                        imgSrc="https://www.untitledui.com/marketing/smiling-girl.webp"
+                        imgSrc="/assets/images/Hero.png"
                         title="We've just released an update!"
                         description="Check out the all new dashboard view. Pages now load up to 3x faster."
                         actionsContent={
