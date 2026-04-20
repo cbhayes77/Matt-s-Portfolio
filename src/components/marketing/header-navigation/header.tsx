@@ -3,8 +3,6 @@ import { useRef, useState } from "react";
 import { ChevronDown } from "@untitledui/icons";
 import { Button as AriaButton, Dialog as AriaDialog, DialogTrigger as AriaDialogTrigger, Popover as AriaPopover } from "react-aria-components";
 import { Button } from "@/components/base/buttons/button";
-import { UntitledLogo } from "@/components/foundations/logo/untitledui-logo";
-import { UntitledLogoMinimal } from "@/components/foundations/logo/untitledui-logo-minimal";
 import { cx } from "@/utils/cx";
 
 type HeaderNavItem = {
@@ -14,9 +12,9 @@ type HeaderNavItem = {
 };
 
 const headerNavItems: HeaderNavItem[] = [
-    { label: "Home", href: "/home" },
-    { label: "Portfolio", href: "/portfolio" },
-    { label: "Resume", href: "/resume" },
+    { label: "About", href: "#about" },
+    { label: "Portfolio", href: "#portfolio" },
+    { label: "Resume", href: "/assets/Matt%20Scaglione%20Resume.pdf" },
 ];
 
 const footerNavItems = [
@@ -36,7 +34,12 @@ const MobileNavItem = (props: { className?: string; label: string; href?: string
     if (props.href) {
         return (
             <li>
-                <a href={props.href} className="flex items-center justify-between px-4 py-3 text-sm font-semibold text-primary hover:bg-primary_hover">
+                <a
+                    href={props.href}
+                    target={props.label === "Resume" ? "_blank" : undefined}
+                    rel={props.label === "Resume" ? "noreferrer noopener" : undefined}
+                    className="flex items-center justify-between px-4 py-3 text-sm font-semibold text-primary hover:bg-primary_hover"
+                >
                     {props.label}
                 </a>
             </li>
@@ -76,8 +79,9 @@ const MobileFooter = () => {
                 </ul>
             </div>
             <div className="flex flex-col gap-3">
-                <Button size="md">Contact Me</Button>
-
+                <Button size="md" href="mailto:mattscags@hotmail.com">
+                    Contact Me
+                </Button>
             </div>
         </div>
     );
@@ -111,8 +115,9 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
                     )}
                 >
                     <div className="flex flex-1 items-center gap-5">
-                        <UntitledLogo className="h-7 md:max-lg:hidden" />
-                        <UntitledLogoMinimal className="hidden h-7 md:inline-block lg:hidden" />
+                        <a href="/" className="text-md font-semibold text-primary md:text-lg">
+                            Matt Scaglione
+                        </a>
 
                         {/* Desktop navigation */}
                         <nav className="max-md:hidden">
@@ -159,6 +164,8 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
                                         ) : (
                                             <a
                                                 href={navItem.href}
+                                                target={navItem.label === "Resume" ? "_blank" : undefined}
+                                                rel={navItem.label === "Resume" ? "noreferrer noopener" : undefined}
                                                 className="flex cursor-pointer items-center gap-0.5 rounded-lg px-1.5 py-1 text-sm font-semibold text-secondary outline-focus-ring transition duration-100 ease-linear hover:text-secondary_hover focus:outline-offset-2 focus-visible:outline-2"
                                             >
                                                 <span className="px-0.5">{navItem.label}</span>
@@ -171,7 +178,7 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
                     </div>
 
                     <div className="hidden items-center gap-3 md:flex">
-                        <Button color="primary" size={isFloating ? "md" : "sm"}>
+                        <Button color="primary" size={isFloating ? "md" : "sm"} href="mailto:mattscags@hotmail.com">
                             Contact Me
                         </Button>
                     </div>

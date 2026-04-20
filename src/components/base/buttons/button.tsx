@@ -183,6 +183,7 @@ export const Button = ({
     ...otherProps
 }: Props) => {
     const href = "href" in otherProps ? otherProps.href : undefined;
+    const isHashLink = typeof href === "string" && href.startsWith("#");
     const Component = href ? AriaLink : AriaButton;
 
     const isIcon = (IconLeading || IconTrailing) && !children;
@@ -207,23 +208,8 @@ export const Button = ({
         };
     }
 
-    return (
-        <Component
-            data-loading={loading ? true : undefined}
-            data-icon-only={isIcon ? true : undefined}
-            {...props}
-            isDisabled={disabled}
-            className={cx(
-                styles.common.root,
-                styles.sizes[size].root,
-                styles.colors[color].root,
-                isLinkType && styles.sizes[size].linkRoot,
-                (loading || (href && (disabled || loading))) && "pointer-events-none",
-                // If in `loading` state, hide everything except the loading icon (and text if `showTextWhileLoading` is true).
-                loading && (showTextWhileLoading ? "[&>*:not([data-icon=loading]):not([data-text])]:hidden" : "[&>*:not([data-icon=loading])]:invisible"),
-                className,
-            )}
-        >
+    const content = (
+        <>
             {/* Leading icon */}
             {isValidElement(IconLeading) && IconLeading}
             {isReactComponent(IconLeading) && <IconLeading data-icon="leading" className={styles.common.icon} />}
@@ -260,6 +246,31 @@ export const Button = ({
             {/* Trailing icon */}
             {isValidElement(IconTrailing) && IconTrailing}
             {isReactComponent(IconTrailing) && <IconTrailing data-icon="trailing" className={styles.common.icon} />}
+        </>
+    );
+
+    const sharedClassName = cx(
+        styles.common.root,
+        styles.sizes[size].root,
+        styles.colors[color].root,
+        isLinkType && styles.sizes[size].linkRoot,
+        (loading || (href && (disabled || loading))) && "pointer-events-none",
+        // If in `loading` state, hide everything except the loading icon (and text if `showTextWhileLoading` is true).
+        loading && (showTextWhileLoading ? "[&>*:not([data-icon=loading]):not([data-text])]:hidden" : "[&>*:not([data-icon=loading])]:invisible"),
+        className,
+    );
+
+    if (isHashLink) {
+        return (
+            <a data-loading={loading ? true : undefined} data-icon-only={isIcon ? true : undefined} {...props} aria-disabled={disabled || undefined} className={sharedClassName}>
+                {content}
+            </a>
+        );
+    }
+
+    return (
+        <Component data-loading={loading ? true : undefined} data-icon-only={isIcon ? true : undefined} {...props} isDisabled={disabled} className={sharedClassName}>
+            {content}
         </Component>
     );
 };
